@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+			
+			
+			<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"></link>
+			<!--font Awesome-->
+			<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css"></link>
+			
+			
+			<link type="text/css" rel="stylesheet" href="css/AdminLTE.css"></link>
+			<link type="text/css" rel="stylesheet" href="css/adminNexus.css"></link>
+	</head>
+
+	<body style="padding:30px"> 
+		<div>
+			<section class="content">
+				
+				<div class="mailbox row">
+					<div class="col-xs-12">
+						<div class="box box-solid">
+							<div class="box-body">
+								<div class="row">
+								<div>
+									<div id="nueva-archivos-adjuntos" class="col-md-3 nueva-padding">
+	                                    <div class="box">
+	                                   		<div class="box-body"> 
+	                                   			<div class="box-header">
+													<h4 class="box-title">Todos</h4>
+								
+												</div>   
+
+												<table class="table nueva-table">
+													
+														<a href="#"><i class="fa fa-folder"></i></a> Carpeta Raiz<!--<i class="fa fa-edit"></i><a href="#"><i class="fa fa-trash-o"></i></a>-->
+													
+													<tr>
+														<td><i class="fa fa-folder"></i><a href="#"> Carpeta Uno</a>
+															
+														</td>
+														<td><a href="#"><i class="fa fa-edit"></i></a><a href="#"><i class="fa fa-trash-o"></i></a></td>
+													</tr>
+													<tr>
+														<td><i class="fa fa-folder"></i><a href="#"> Carpeta Dos</a>
+														
+														</td>
+														<td><a href="#"><i class="fa fa-edit"></i></a><a href="#"><i class="fa fa-trash-o"></i></a></td>
+													</tr>
+													<tr>
+														<td><i class="fa fa-folder"></i><a href="#"> Carpeta Uno</a>
+														
+														</td>
+														<td><a href="#"><i class="fa fa-edit"></i></a><a href="#"><i class="fa fa-trash-o"></i></a></td>
+													</tr>
+													<tr>
+														<td><i class="fa fa-folder"></i><a href="#"> Carpeta Dos</a>
+														
+														</td>
+														<td><a href="#"><i class="fa fa-edit"></i></a><a href="#"><i class="fa fa-trash-o"></i></a></td>
+													</tr>
+													<tr>
+														<td><i class="fa fa-folder"></i><a href="#"> Carpeta Uno</a>
+														
+														</td>
+														<td><a href="#"><i class="fa fa-edit"></i></a><a href="#"><i class="fa fa-trash-o"></i></a></td>
+													</tr>
+
+												</table>
+	                                            
+	                                    	</div>
+	                                  	</div>
+	                            </div>
+	                           </div><!-- /.col (LEFT) -->
+	                    <!-- Formulario Columna izquierda -->
+	                    <div>
+	                        <div class="col-md-9">
+								
+	                                <div class="box-body">
+	                                	<div class="header text-center">
+												<h3>Administrador-Cursos</h3>
+										</div>
+										<form role="form" class="form-horizontal">
+											
+											<div class="form-group ">
+												<label class="col-md-2 control-label">Modalidad:</label>
+												<div class="col-lg-2">
+													<select class="form-control nueva-select">
+														<option>Alumno</option>
+														<option>Maestro</option>
+													</select>
+												</div>
+												<label class="col-md-1 control-label">Estatus:</label>
+												<div class="col-lg-2">
+													<select class="form-control nueva-select">
+														<option>Activo</option>
+														<option>Inactivo</option>
+													</select>
+												</div>
+												<label class="col-md-1 control-label">Tipo:</label>
+												<div class="col-lg-2">
+													<select class="form-control nueva-select">
+														<option>1</option>
+														<option>2</option>
+													</select>
+												</div>
+											</div>
+											
+											
+											<div class="form-group ">
+												<label class="col-lg-2 control-label">Profesor Titular:</label>
+												<div class="col-lg-2">
+													<select class="form-control nueva-select">
+														<option>M.A Antonio Martinez</option>
+														<option>M.C Daniel Alvarez</option>
+													</select>
+												</div>
+												
+
+											</div>
+											<div class="form-group ">
+												<label class="col-lg-3 control-label">Buqueda por Nombre de Curso:</label>
+												<div class="col-lg-3">
+													<input type="text" class="form-control" id="nombre">
+												</div>
+												<div class="col-lg-6">
+													<a href="#"><i class="fa fa-search text-blue"></i></a>
+													<a href="nuevo_curso2.html" role="button" class="btn btn-primary btn-sm nueva-marginLeft">Nuevo Curso</a>
+													
+												</div>
+												
+											</div>
+												
+										</form>	
+										<div class="box clear">
+
+											<table class="table nueva-table">
+												<tbody>
+						                           <!--cambiar table-bordered por una clase mia-->
+						                               	<tr class="nueva-azul">
+						                                	<th class="nueva-celda text-center">Nombre</th>
+						                                	<th class="nueva-celda text-center">Vigencia/Estatus</th>
+						                                	<th class="nueva-celda text-center">Modalidad</th>
+						                                	<th class="nueva-celda text-center">Tipo</th>
+						                                	<th class="nueva-celda text-center">Acciones</th>
+						                                </tr>
+						                                <tr>
+						                                	<td class="text-center"><a href="#">Matematicas I</a><br />Titular: Juan Jose Rodriguez Juárez<br />/Carpeta Uno</td>
+						                                	<td class="text-center">Del 07-Ene-2015<br />Al 30-Jun-2015<br /><i class="fa fa-check text-green"></i>Activo</td>
+						                                	<td class="text-center">Distancia</td>
+						                                	<td class="text-center">Competencias</td>
+						                                	<td><i class="fa fa-group text-blue"><a href="#">Gestionar Usuarios</a></i><br /><i class="fa fa-edit text-yellow">Editar</i><br /><i class="fa fa-archive"><a href="#">Respaldar</a></i><br /><i class="fa fa-share text-blue"><a href="#">Compartir</a></i><br /><a href="#"><i class="fa fa-reply">Replicar</i></a><br /><i class="fa fa-trash-o text-blue"><a href="#">Eliminar</a></i><br /></td>
+						                                </tr>
+						                                
+						                            	<tr>
+						                                	<td class="text-center"><a href="#">Matematicas I</a><br />Titular: Juan Jose Rodriguez Juárez<br />/Carpeta Uno</td>
+						                                	<td class="text-center">Del 07-Ene-2015<br />Al 30-Jun-2015<br /><i class="fa fa-ban text-red"></i>Inactivo</td>
+						                                	<td class="text-center">Distancia</td>
+						                                	<td class="text-center">Competencias</td>
+						                                	<td><i class="fa fa-group text-blue">Gestionar Usuarios</i><br /><i class="fa fa-edit text-yellow">Editar</i><br /><i class="fa fa-archive">Respaldar</i><br /><i class="fa fa-share text-blue">Compartir</i><br /><a href="#"><i class="fa fa-reply">Replicar</i></a><br /><i class="fa fa-trash-o text-blue">Eliminar</i><br /></td>
+						                                </tr>
+						                                <tr>
+						                                	<td class="text-center"><a href="#">Matematicas I</a><br />Titular: Juan Jose Rodriguez Juárez<br />/Carpeta Uno</td>
+						                                	<td class="text-center">Del 07-Ene-2015<br />Al 30-Jun-2015<br /><i class="fa fa-ban text-red"></i>Inactivo</td>
+						                                	<td class="text-center">Distancia</td>
+						                                	<td class="text-center">Competencias</td>
+						                                	<td><i class="fa fa-group text-blue">Gestionar Usuarios</i><br /><i class="fa fa-edit text-yellow">Editar</i><br /><i class="fa fa-archive">Respaldar</i><br /><i class="fa fa-share text-blue">Compartir</i><br /><a href="#"><i class="fa fa-reply">Replicar</i></a><br /><i class="fa fa-trash-o text-blue">Eliminar</i><br /></td>
+						                                </tr>
+						                                
+						                                
+						                        </tbody>
+					                        </table>	
+					                    </div>
+									</div>
+								</div>
+	                               
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</div>
+	</body>
+</html>
