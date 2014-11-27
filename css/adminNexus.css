@@ -67,12 +67,12 @@ form
 .nueva-padding
 {
 	padding: 40px !important;
-  margin-top: 50px;
+    margin-top: 50px;
 }
 .nueva-table > tbody > tr > th, .nueva-table > tbody > tr > td
 {
 	padding: 10px 15px;
-  margin-top: 80px;
+    margin-top: 80px;
 }
 .nueva-table th
 {

@@ -25,29 +25,21 @@
 							<div class="box-body">
 								<div class="row">
 								<div>
-									<div id="nueva-archivos-adjuntos" class="col-md-3 nueva-padding">
+									<div class="col-md-3 nueva-padding">
 	                                    <div class="box">
 	                                   		<div class="box-body">
 		                                   		<div class="box-header active">
 														<h4 class="box-title">Filtros</h4>
 									
 												</div>   
-	                                                 
-		                                   			
-	                                   			<!--<div class="box-header">
-													<h4 class="box-title">Todos</h4>
-								
-												</div>   
-                                                -->
-
 												<table class="table nueva-table">
                                                    
                                                     <tr>
                                                         <td>	  
 															<div class="nav col-md-14">
 																<div class="input-group col-lg-12">
-																    <input type="text" class="form-control">
-																    <span class="input-group-btn">
+																    <input type="text" class="form-control" placeholder="Busqueda">
+																    	<span class="input-group-btn">
 																    	<button class="btn btn-default" type="button"> <a href="#"><i class="fa fa-search text-blue"></i></a></button>
 																    </span>
 																</div><!-- /input-group -->
@@ -58,21 +50,22 @@
 
                                                     <tr>
                                                         <td>
-                                                           <select class="form-control col-md-6 nueva-select">
+                                                           <select class="form-control col-md-6 nueva-select" placeholder="Modalidad">
+                                                           		
 														        <option>Alumno</option>
 														        <option>Maestro</option>
 													        </select> </td>
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                        <select class="form-control col-md-6 nueva-select">
+                                                        <select class="form-control col-md-6 nueva-select" placeholder="Estatus">
 														    <option>Activo</option>
 														    <option>Inactivo</option>
 													    </select>  </td> 
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                           <select class="form-control col-md-6 nueva-select">
+                                                           <select class="form-control col-md-6 nueva-select" placeholder="Tipo">
 														       <option>curso</option>
 														        <option>curso</option>
 													        </select>
@@ -80,19 +73,19 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                           <select class="form-control col-md-6 nueva-select">
+                                                           <select class="form-control col-md-6 nueva-select" placeholder="Profesor Titular">
 														       <option>M.A Antonio Martinez</option>
 														        <option>M.C Daniel Alvarez</option>
 													       </select>
                                                         </td>
                                                     </tr>
-                                                	<tr>
-                                                		<div class="col-md-15">
-													    
-														 	<a href="nuevo-curso-adm.html" role="button" class="btn btn-primary btn-sm col-md-10 nueva-marginLeft">Nuevo Curso</a>
-													
-														</div>
-                                                	</tr>    
+                                                	<!--<tr>-->
+                                                		<td class="col-md-15">
+                                                			<!--<div class="col-md-15">-->
+													    		
+														 		<a href="nuevo_curso2.html" role="button" class="btn btn-primary btn-sm col-lg-12 nueva-marginLeft">Nuevo Curso<span><!--<i class="glyphicon glyphicon-plus pull-right"></i>--></span></a>
+														 		
+														</td> 
 
 												</table>
 	                                           	
@@ -121,8 +114,8 @@
 						                                </tr>
 						                            </thead>
 						                                <tr>
-						                                	<td><a href="#"><h4>Matematicas I</h4></a><br /><i class="glyphicon glyphicon-user"></i>Titular: Juan Jose Rodriguez Juárez<br /><i class="fa fa-folder"></i>Tareas</td>
-						                                	<td><i class="fa fa-check text-green"></i><h6>Del 07-Ene-2015 Al 30-Jun-2015</h6></td>
+						                                	<td><a href="#">Matematicas I</a><br /><i class="glyphicon glyphicon-user"></i>Titular: Juan Jose Rodriguez Juárez<br /><i class="fa fa-folder"></i>Tareas</td>
+						                                	<td><i class="fa fa-check text-green"></i>Del 07-Ene-2015 Al 30-Jun-2015</td>
 						                                	<td class="text-center">Distancia</td>
 						                                	<td class="text-center">Competencias</td>
 						                                	<td><!--<i class="fa fa-group text-blue"><a href="#">Gestionar Usuarios</a></i><br /><i class="fa fa-edit text-blue"><a href="#">Editar</a></i><br /><i class="fa fa-archive text-blue"><a href="#">Respaldar</a></i><br /><i class="fa fa-share text-blue"><a href="#">Compartir</a></i><br /><i class="fa fa-reply text-blue"></i><a href="#">Replicar</a><br /><i class="fa fa-trash-o text-blue"></i><a href="#">Eliminar</a><br />-->
@@ -189,5 +182,12 @@
 	<script src="js/jquery-ui-1.10.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/AdminLTE/app.js"></script>
+	<style>
+		.table>tbody>tr>td {
+          vertical-align: middle;
+          border-top: none;
+          }
+
+	</style>
 	</body>
 </html>
