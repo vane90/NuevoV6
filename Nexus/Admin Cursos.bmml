@@ -1,0 +1,755 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1266" measuredH="1006" mockupW="1024" mockupH="990">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="242" y="16" w="1024" h="990" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Admistrador%20de%20Curso</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::ComboBox" x="327" y="388" w="184" h="-1" measuredW="90" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Modalidad</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="276" y="200" w="956" h="778" measuredW="100" measuredH="70" zOrder="1" locked="true" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Canvas" x="307" y="233" w="226" h="420" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="242" y="86" w="1024" h="36" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10066329</color>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Canvas" x="242" y="116" w="1024" h="22" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Title" x="255" y="91" w="-1" h="-1" measuredW="81" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>NEXUS</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::SubTitle" x="255" y="120" w="-1" h="-1" measuredW="355" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Principal%20Administrador%20de%20Area%20Academica</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Icon" x="1072" y="92" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GMailIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Icon" x="1103" y="92" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ExclamationPointIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Icon" x="1127" y="92" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="1156" y="94" w="-1" h="-1" measuredW="63" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Fco.%20Javier</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Icon" x="1224" y="90" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PowerIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Canvas" x="307" y="233" w="226" h="46" measuredW="100" measuredH="70" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10066329</color>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::ComboBox" x="327" y="431" w="184" h="-1" measuredW="76" measuredH="24" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Estatus</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::ComboBox" x="327" y="473" w="184" h="-1" measuredW="56" measuredH="24" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Tipo</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::ComboBox" x="327" y="516" w="184" h="-1" measuredW="81" measuredH="24" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Profesor</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::TextInput" x="327" y="339" w="187" h="-1" measuredW="56" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Buscar</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Icon" x="486" y="340" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SearchIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Title" x="336" y="235" w="-1" h="-1" measuredW="160" measuredH="43" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>FILTROS</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::ComboBox" x="327" y="292" w="159" h="-1" measuredW="110" measuredH="24" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Carpeta%20Raiz</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Button" x="327" y="567" w="184" h="41" measuredW="117" measuredH="27" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <text>NUEVO%20CURSO</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Icon" x="474" y="574" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PlusBigIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Icon" x="490" y="292" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PlusBigIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="580" y="243" w="-1" h="-1" measuredW="46" measuredH="21" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nombre</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Canvas" x="560" y="233" w="631" h="46" measuredW="100" measuredH="70" zOrder="24" locked="false" isInGroup="-1"/>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Label" x="738" y="243" w="-1" h="-1" measuredW="101" measuredH="21" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>vigencia/Estatus</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Label" x="913" y="246" w="-1" h="-1" measuredW="60" measuredH="21" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Modalidad</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Label" x="1031" y="246" w="-1" h="-1" measuredW="26" measuredH="21" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Tipo</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Label" x="1112" y="243" w="-1" h="-1" measuredW="54" measuredH="21" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Acciones</text>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="__group__" x="560" y="300" w="623" h="54" measuredW="623" measuredH="54" zOrder="30" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="91" measuredH="22" zOrder="0" locked="false" isInGroup="80">
+          <controlProperties>
+            <size>14</size>
+            <text>Matematicas%201</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="20" y="21" w="-1" h="-1" measuredW="97" measuredH="18" zOrder="1" locked="false" isInGroup="80">
+          <controlProperties>
+            <size>10</size>
+            <text>Juan%20Jose%20Rodriguez</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="20" y="36" w="-1" h="-1" measuredW="79" measuredH="18" zOrder="2" locked="false" isInGroup="80">
+          <controlProperties>
+            <size>10</size>
+            <text>Nombre_Carpeta</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="181" y="21" w="-1" h="-1" measuredW="149" measuredH="18" zOrder="3" locked="false" isInGroup="80">
+          <controlProperties>
+            <size>10</size>
+            <text>Del%2007-Ene-2015%20Al%2030-Jun-2015</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="368" y="21" w="-1" h="-1" measuredW="43" measuredH="18" zOrder="4" locked="false" isInGroup="80">
+          <controlProperties>
+            <size>10</size>
+            <text>Distancia</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="461" y="21" w="-1" h="-1" measuredW="66" measuredH="18" zOrder="5" locked="false" isInGroup="80">
+          <controlProperties>
+            <size>10</size>
+            <text>Competencias</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="567" y="21" w="-1" h="-1" measuredW="56" measuredH="18" zOrder="6" locked="false" isInGroup="80">
+          <controlProperties>
+            <size>10</size>
+            <text>Dropdown%20%3E</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="22" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="7" locked="false" isInGroup="80">
+          <controlProperties>
+            <icon>ContactIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="37" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="8" locked="false" isInGroup="80">
+          <controlProperties>
+            <icon>FolderClosed%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="81" controlTypeID="__group__" x="560" y="366" w="623" h="54" measuredW="623" measuredH="54" zOrder="31" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="91" measuredH="22" zOrder="0" locked="false" isInGroup="81">
+          <controlProperties>
+            <size>14</size>
+            <text>Matematicas%201</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="20" y="21" w="-1" h="-1" measuredW="97" measuredH="18" zOrder="1" locked="false" isInGroup="81">
+          <controlProperties>
+            <size>10</size>
+            <text>Juan%20Jose%20Rodriguez</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="20" y="36" w="-1" h="-1" measuredW="79" measuredH="18" zOrder="2" locked="false" isInGroup="81">
+          <controlProperties>
+            <size>10</size>
+            <text>Nombre_Carpeta</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="181" y="21" w="-1" h="-1" measuredW="149" measuredH="18" zOrder="3" locked="false" isInGroup="81">
+          <controlProperties>
+            <size>10</size>
+            <text>Del%2007-Ene-2015%20Al%2030-Jun-2015</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="368" y="21" w="-1" h="-1" measuredW="43" measuredH="18" zOrder="4" locked="false" isInGroup="81">
+          <controlProperties>
+            <size>10</size>
+            <text>Distancia</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="461" y="21" w="-1" h="-1" measuredW="66" measuredH="18" zOrder="5" locked="false" isInGroup="81">
+          <controlProperties>
+            <size>10</size>
+            <text>Competencias</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="567" y="21" w="-1" h="-1" measuredW="56" measuredH="18" zOrder="6" locked="false" isInGroup="81">
+          <controlProperties>
+            <size>10</size>
+            <text>Dropdown%20%3E</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="22" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="7" locked="false" isInGroup="81">
+          <controlProperties>
+            <icon>ContactIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="37" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="8" locked="false" isInGroup="81">
+          <controlProperties>
+            <icon>FolderClosed%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="82" controlTypeID="__group__" x="560" y="431" w="623" h="54" measuredW="623" measuredH="54" zOrder="32" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="91" measuredH="22" zOrder="0" locked="false" isInGroup="82">
+          <controlProperties>
+            <size>14</size>
+            <text>Matematicas%201</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="20" y="21" w="-1" h="-1" measuredW="97" measuredH="18" zOrder="1" locked="false" isInGroup="82">
+          <controlProperties>
+            <size>10</size>
+            <text>Juan%20Jose%20Rodriguez</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="20" y="36" w="-1" h="-1" measuredW="79" measuredH="18" zOrder="2" locked="false" isInGroup="82">
+          <controlProperties>
+            <size>10</size>
+            <text>Nombre_Carpeta</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="181" y="21" w="-1" h="-1" measuredW="149" measuredH="18" zOrder="3" locked="false" isInGroup="82">
+          <controlProperties>
+            <size>10</size>
+            <text>Del%2007-Ene-2015%20Al%2030-Jun-2015</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="368" y="21" w="-1" h="-1" measuredW="43" measuredH="18" zOrder="4" locked="false" isInGroup="82">
+          <controlProperties>
+            <size>10</size>
+            <text>Distancia</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="461" y="21" w="-1" h="-1" measuredW="66" measuredH="18" zOrder="5" locked="false" isInGroup="82">
+          <controlProperties>
+            <size>10</size>
+            <text>Competencias</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="567" y="21" w="-1" h="-1" measuredW="56" measuredH="18" zOrder="6" locked="false" isInGroup="82">
+          <controlProperties>
+            <size>10</size>
+            <text>Dropdown%20%3E</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="22" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="7" locked="false" isInGroup="82">
+          <controlProperties>
+            <icon>ContactIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="37" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="8" locked="false" isInGroup="82">
+          <controlProperties>
+            <icon>FolderClosed%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="83" controlTypeID="__group__" x="560" y="497" w="623" h="54" measuredW="623" measuredH="54" zOrder="33" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="91" measuredH="22" zOrder="0" locked="false" isInGroup="83">
+          <controlProperties>
+            <size>14</size>
+            <text>Matematicas%201</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="20" y="21" w="-1" h="-1" measuredW="97" measuredH="18" zOrder="1" locked="false" isInGroup="83">
+          <controlProperties>
+            <size>10</size>
+            <text>Juan%20Jose%20Rodriguez</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="20" y="36" w="-1" h="-1" measuredW="79" measuredH="18" zOrder="2" locked="false" isInGroup="83">
+          <controlProperties>
+            <size>10</size>
+            <text>Nombre_Carpeta</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="181" y="21" w="-1" h="-1" measuredW="149" measuredH="18" zOrder="3" locked="false" isInGroup="83">
+          <controlProperties>
+            <size>10</size>
+            <text>Del%2007-Ene-2015%20Al%2030-Jun-2015</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="368" y="21" w="-1" h="-1" measuredW="43" measuredH="18" zOrder="4" locked="false" isInGroup="83">
+          <controlProperties>
+            <size>10</size>
+            <text>Distancia</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="461" y="21" w="-1" h="-1" measuredW="66" measuredH="18" zOrder="5" locked="false" isInGroup="83">
+          <controlProperties>
+            <size>10</size>
+            <text>Competencias</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="567" y="21" w="-1" h="-1" measuredW="56" measuredH="18" zOrder="6" locked="false" isInGroup="83">
+          <controlProperties>
+            <size>10</size>
+            <text>Dropdown%20%3E</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="22" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="7" locked="false" isInGroup="83">
+          <controlProperties>
+            <icon>ContactIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="37" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="8" locked="false" isInGroup="83">
+          <controlProperties>
+            <icon>FolderClosed%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="84" controlTypeID="__group__" x="560" y="563" w="623" h="54" measuredW="623" measuredH="54" zOrder="34" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="91" measuredH="22" zOrder="0" locked="false" isInGroup="84">
+          <controlProperties>
+            <size>14</size>
+            <text>Matematicas%201</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="20" y="21" w="-1" h="-1" measuredW="97" measuredH="18" zOrder="1" locked="false" isInGroup="84">
+          <controlProperties>
+            <size>10</size>
+            <text>Juan%20Jose%20Rodriguez</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="20" y="36" w="-1" h="-1" measuredW="79" measuredH="18" zOrder="2" locked="false" isInGroup="84">
+          <controlProperties>
+            <size>10</size>
+            <text>Nombre_Carpeta</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="181" y="21" w="-1" h="-1" measuredW="149" measuredH="18" zOrder="3" locked="false" isInGroup="84">
+          <controlProperties>
+            <size>10</size>
+            <text>Del%2007-Ene-2015%20Al%2030-Jun-2015</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="368" y="21" w="-1" h="-1" measuredW="43" measuredH="18" zOrder="4" locked="false" isInGroup="84">
+          <controlProperties>
+            <size>10</size>
+            <text>Distancia</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="461" y="21" w="-1" h="-1" measuredW="66" measuredH="18" zOrder="5" locked="false" isInGroup="84">
+          <controlProperties>
+            <size>10</size>
+            <text>Competencias</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="567" y="21" w="-1" h="-1" measuredW="56" measuredH="18" zOrder="6" locked="false" isInGroup="84">
+          <controlProperties>
+            <size>10</size>
+            <text>Dropdown%20%3E</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="22" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="7" locked="false" isInGroup="84">
+          <controlProperties>
+            <icon>ContactIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="37" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="8" locked="false" isInGroup="84">
+          <controlProperties>
+            <icon>FolderClosed%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="85" controlTypeID="__group__" x="560" y="628" w="623" h="54" measuredW="623" measuredH="54" zOrder="35" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="91" measuredH="22" zOrder="0" locked="false" isInGroup="85">
+          <controlProperties>
+            <size>14</size>
+            <text>Matematicas%201</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="20" y="21" w="-1" h="-1" measuredW="97" measuredH="18" zOrder="1" locked="false" isInGroup="85">
+          <controlProperties>
+            <size>10</size>
+            <text>Juan%20Jose%20Rodriguez</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="20" y="36" w="-1" h="-1" measuredW="79" measuredH="18" zOrder="2" locked="false" isInGroup="85">
+          <controlProperties>
+            <size>10</size>
+            <text>Nombre_Carpeta</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="181" y="21" w="-1" h="-1" measuredW="149" measuredH="18" zOrder="3" locked="false" isInGroup="85">
+          <controlProperties>
+            <size>10</size>
+            <text>Del%2007-Ene-2015%20Al%2030-Jun-2015</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="368" y="21" w="-1" h="-1" measuredW="43" measuredH="18" zOrder="4" locked="false" isInGroup="85">
+          <controlProperties>
+            <size>10</size>
+            <text>Distancia</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="461" y="21" w="-1" h="-1" measuredW="66" measuredH="18" zOrder="5" locked="false" isInGroup="85">
+          <controlProperties>
+            <size>10</size>
+            <text>Competencias</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="567" y="21" w="-1" h="-1" measuredW="56" measuredH="18" zOrder="6" locked="false" isInGroup="85">
+          <controlProperties>
+            <size>10</size>
+            <text>Dropdown%20%3E</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="22" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="7" locked="false" isInGroup="85">
+          <controlProperties>
+            <icon>ContactIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="37" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="8" locked="false" isInGroup="85">
+          <controlProperties>
+            <icon>FolderClosed%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="86" controlTypeID="__group__" x="560" y="697" w="623" h="54" measuredW="623" measuredH="54" zOrder="36" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="91" measuredH="22" zOrder="0" locked="false" isInGroup="86">
+          <controlProperties>
+            <size>14</size>
+            <text>Matematicas%201</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="20" y="21" w="-1" h="-1" measuredW="97" measuredH="18" zOrder="1" locked="false" isInGroup="86">
+          <controlProperties>
+            <size>10</size>
+            <text>Juan%20Jose%20Rodriguez</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="20" y="36" w="-1" h="-1" measuredW="79" measuredH="18" zOrder="2" locked="false" isInGroup="86">
+          <controlProperties>
+            <size>10</size>
+            <text>Nombre_Carpeta</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="181" y="21" w="-1" h="-1" measuredW="149" measuredH="18" zOrder="3" locked="false" isInGroup="86">
+          <controlProperties>
+            <size>10</size>
+            <text>Del%2007-Ene-2015%20Al%2030-Jun-2015</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="368" y="21" w="-1" h="-1" measuredW="43" measuredH="18" zOrder="4" locked="false" isInGroup="86">
+          <controlProperties>
+            <size>10</size>
+            <text>Distancia</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="461" y="21" w="-1" h="-1" measuredW="66" measuredH="18" zOrder="5" locked="false" isInGroup="86">
+          <controlProperties>
+            <size>10</size>
+            <text>Competencias</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="567" y="21" w="-1" h="-1" measuredW="56" measuredH="18" zOrder="6" locked="false" isInGroup="86">
+          <controlProperties>
+            <size>10</size>
+            <text>Dropdown%20%3E</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="22" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="7" locked="false" isInGroup="86">
+          <controlProperties>
+            <icon>ContactIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="37" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="8" locked="false" isInGroup="86">
+          <controlProperties>
+            <icon>FolderClosed%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="87" controlTypeID="__group__" x="560" y="763" w="623" h="54" measuredW="623" measuredH="54" zOrder="37" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="91" measuredH="22" zOrder="0" locked="false" isInGroup="87">
+          <controlProperties>
+            <size>14</size>
+            <text>Matematicas%201</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="20" y="21" w="-1" h="-1" measuredW="97" measuredH="18" zOrder="1" locked="false" isInGroup="87">
+          <controlProperties>
+            <size>10</size>
+            <text>Juan%20Jose%20Rodriguez</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="20" y="36" w="-1" h="-1" measuredW="79" measuredH="18" zOrder="2" locked="false" isInGroup="87">
+          <controlProperties>
+            <size>10</size>
+            <text>Nombre_Carpeta</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="181" y="21" w="-1" h="-1" measuredW="149" measuredH="18" zOrder="3" locked="false" isInGroup="87">
+          <controlProperties>
+            <size>10</size>
+            <text>Del%2007-Ene-2015%20Al%2030-Jun-2015</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="368" y="21" w="-1" h="-1" measuredW="43" measuredH="18" zOrder="4" locked="false" isInGroup="87">
+          <controlProperties>
+            <size>10</size>
+            <text>Distancia</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="461" y="21" w="-1" h="-1" measuredW="66" measuredH="18" zOrder="5" locked="false" isInGroup="87">
+          <controlProperties>
+            <size>10</size>
+            <text>Competencias</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="567" y="21" w="-1" h="-1" measuredW="56" measuredH="18" zOrder="6" locked="false" isInGroup="87">
+          <controlProperties>
+            <size>10</size>
+            <text>Dropdown%20%3E</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="22" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="7" locked="false" isInGroup="87">
+          <controlProperties>
+            <icon>ContactIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="37" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="8" locked="false" isInGroup="87">
+          <controlProperties>
+            <icon>FolderClosed%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="88" controlTypeID="__group__" x="560" y="828" w="623" h="54" measuredW="623" measuredH="54" zOrder="38" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="91" measuredH="22" zOrder="0" locked="false" isInGroup="88">
+          <controlProperties>
+            <size>14</size>
+            <text>Matematicas%201</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="20" y="21" w="-1" h="-1" measuredW="97" measuredH="18" zOrder="1" locked="false" isInGroup="88">
+          <controlProperties>
+            <size>10</size>
+            <text>Juan%20Jose%20Rodriguez</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="20" y="36" w="-1" h="-1" measuredW="79" measuredH="18" zOrder="2" locked="false" isInGroup="88">
+          <controlProperties>
+            <size>10</size>
+            <text>Nombre_Carpeta</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="181" y="21" w="-1" h="-1" measuredW="149" measuredH="18" zOrder="3" locked="false" isInGroup="88">
+          <controlProperties>
+            <size>10</size>
+            <text>Del%2007-Ene-2015%20Al%2030-Jun-2015</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="368" y="21" w="-1" h="-1" measuredW="43" measuredH="18" zOrder="4" locked="false" isInGroup="88">
+          <controlProperties>
+            <size>10</size>
+            <text>Distancia</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="461" y="21" w="-1" h="-1" measuredW="66" measuredH="18" zOrder="5" locked="false" isInGroup="88">
+          <controlProperties>
+            <size>10</size>
+            <text>Competencias</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="567" y="21" w="-1" h="-1" measuredW="56" measuredH="18" zOrder="6" locked="false" isInGroup="88">
+          <controlProperties>
+            <size>10</size>
+            <text>Dropdown%20%3E</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="22" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="7" locked="false" isInGroup="88">
+          <controlProperties>
+            <icon>ContactIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="37" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="8" locked="false" isInGroup="88">
+          <controlProperties>
+            <icon>FolderClosed%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::Icon" x="722" y="323" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CheckMarkIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="93" controlTypeID="com.balsamiq.mockups::Icon" x="722" y="387" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ForbiddenIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="94" controlTypeID="com.balsamiq.mockups::Icon" x="722" y="455" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CheckMarkIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="95" controlTypeID="com.balsamiq.mockups::Icon" x="722" y="520" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CheckMarkIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="96" controlTypeID="com.balsamiq.mockups::Icon" x="722" y="586" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CheckMarkIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="97" controlTypeID="com.balsamiq.mockups::Icon" x="722" y="653" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CheckMarkIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="98" controlTypeID="com.balsamiq.mockups::Icon" x="722" y="720" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ForbiddenIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="99" controlTypeID="com.balsamiq.mockups::Icon" x="722" y="786" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ForbiddenIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="100" controlTypeID="com.balsamiq.mockups::Icon" x="722" y="853" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="47" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CheckMarkIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="101" controlTypeID="__group__" x="1127" y="408" w="100" h="137" measuredW="100" measuredH="137" zOrder="48" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::List" x="0" y="0" w="100" h="137" measuredW="100" measuredH="132" zOrder="0" locked="false" isInGroup="101">
+          <controlProperties>
+            <size>12</size>
+            <text>Gestionar%20Usuario%0AEditar%0ARespaldar%0ACompartir%0AReplicar%0AElimar</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="78" y="4" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="101">
+          <controlProperties>
+            <icon>ContactsIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="78" y="28" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="2" locked="false" isInGroup="101">
+          <controlProperties>
+            <icon>WriteIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="78" y="49" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="3" locked="false" isInGroup="101">
+          <controlProperties>
+            <icon>DataBaseIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="78" y="74" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="4" locked="false" isInGroup="101">
+          <controlProperties>
+            <icon>ShareIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Icon" x="78" y="94" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="5" locked="false" isInGroup="101">
+          <controlProperties>
+            <icon>CopyIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Icon" x="78" y="113" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="6" locked="false" isInGroup="101">
+          <controlProperties>
+            <icon>Trash2Icon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="102" controlTypeID="com.balsamiq.mockups::Tooltip" x="722" y="336" w="-1" h="-1" measuredW="87" measuredH="33" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>activo</text>
+      </controlProperties>
+    </control>
+    <control controlID="103" controlTypeID="com.balsamiq.mockups::Tooltip" x="560" y="354" w="-1" h="-1" measuredW="106" measuredH="33" zOrder="50" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ubicacion</text>
+      </controlProperties>
+    </control>
+    <control controlID="104" controlTypeID="com.balsamiq.mockups::Tooltip" x="486" y="300" w="-1" h="-1" measuredW="90" measuredH="33" zOrder="51" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Titular</text>
+        <tooltipDirection>SE</tooltipDirection>
+      </controlProperties>
+    </control>
+    <control controlID="105" controlTypeID="com.balsamiq.mockups::StickyNote" x="378" y="746" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="52" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Poner%20Tool%20Tips</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
