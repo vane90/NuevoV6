@@ -25,14 +25,28 @@
 							<div class="box-body">
 								<div class="row">
 								<div>
-									<div class="col-md-3 nueva-padding">
+									<div class="col-md-3 nueva-padding ">
 	                                    <div class="box">
 	                                   		<div class="box-body">
-		                                   		<div class="box-header active">
+		                                   		<div class="box-header">
 														<h4 class="box-title">Filtros</h4>
 									
 												</div>   
 												<table class="table nueva-table">
+
+													<!--<div class="dropdown col-md-12">
+														<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+														Carpeta Raiz
+															<span class="caret"></span>
+														</button>
+																	 
+														<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu3">
+															<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Carpeta 1</a></li>
+															<li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Carpeta 2</a></li>
+															<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Carpeta 3</a></li>
+															
+														</ul>
+													</div>-->
                                                    
                                                     <tr>
                                                         <td>	  
@@ -54,14 +68,16 @@
                                                            		
 														        <option>Alumno</option>
 														        <option>Maestro</option>
-													        </select> </td>
+													        </select> 
+													    </td>
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                        <select class="form-control col-md-6 nueva-select" placeholder="Estatus">
-														    <option>Activo</option>
-														    <option>Inactivo</option>
-													    </select>  </td> 
+	                                                        <select class="form-control col-md-6 nueva-select" placeholder="Estatus">
+															    <option>Activo</option>
+															    <option>Inactivo</option>
+														    </select>  
+														</td> 
                                                     </tr>
                                                     <tr>
                                                         <td>
@@ -102,7 +118,7 @@
 										
 										<div class="box clear">
 											<table class="table fixed nueva-table ">
-												<tbody>
+												
 						                           <!--cambiar table-bordered por una clase mia-->
 						                            <thead > 	
 						                               	<tr class="nueva-azul">
@@ -113,59 +129,33 @@
 						                                	<th class="nueva-celda text-center">Acciones</th>
 						                                </tr>
 						                            </thead>
+						                            <tbody>
 						                                <tr>
 						                                	<td><a href="#">Matematicas I</a><br /><i class="glyphicon glyphicon-user"></i>Titular: Juan Jose Rodriguez Juárez<br /><i class="fa fa-folder"></i>Tareas</td>
 						                                	<td><i class="fa fa-check text-green"></i>Del 07-Ene-2015 Al 30-Jun-2015</td>
 						                                	<td class="text-center">Distancia</td>
 						                                	<td class="text-center">Competencias</td>
-						                                	<td><!--<i class="fa fa-group text-blue"><a href="#">Gestionar Usuarios</a></i><br /><i class="fa fa-edit text-blue"><a href="#">Editar</a></i><br /><i class="fa fa-archive text-blue"><a href="#">Respaldar</a></i><br /><i class="fa fa-share text-blue"><a href="#">Compartir</a></i><br /><i class="fa fa-reply text-blue"></i><a href="#">Replicar</a><br /><i class="fa fa-trash-o text-blue"></i><a href="#">Eliminar</a><br />-->
-						                                		<!--<div class="dropdown">
-						                                			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-						                                			</button>
-						                                			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-						                                				<li role="select"><a role="menuitem" tabindex="-1" href="#">Gestionar Usuarios</a></li>
-						                                				<li role="select"><a role="menuitem" tabindex="-1" href="#">Editar</a></li>
-						                                				
-						                                			</ul>
-
-						                                		</div>-->
+						                                	<td>
 						                                		<div class="dropdown">
 																	  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
 																	    Acciones
 																	    <span class="caret"></span>
 																	  </button>
-																	  <!--<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-																	    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Gestionar Usuarios</a></li>
-																	    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Editar</a></li>
-																	    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Compartir</a></li>
-																	    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Replicar</a></li>
-																	  </ul>-->
+																	 
 																	  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu3">
-																		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Regular link</a></li>
-																		  <li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Disabled link</a></li>
-																		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another link</a></li>
+																		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Gestionar Usuarios<i class=" icon-group "></i></a></li>
+																		  <li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Editar</a></li>
+																		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Respaldar</a></li>
+																		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Compartior</a></li>
+																		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Replicar</a></li>
+																		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Eliminar</a></li>
 																	  </ul>
 																</div>
 						                                	</td>
 						                                </tr>
-						                                <!--
-						                            	<tr>
-						                                	<td class="text-center"><a href="#">Matematicas I</a><br />Titular: Juan Jose Rodriguez Juárez<br />/Carpeta Uno</td>
-						                                	<td class="text-center">Del 07-Ene-2015<br />Al 30-Jun-2015<br /><i class="fa fa-ban text-red"></i>Inactivo</td>
-						                                	<td class="text-center">Distancia</td>
-						                                	<td class="text-center">Competencias</td>
-						                                	<td><i class="fa fa-group text-blue"><a href="#">Gestionar Usuarios</a></i><br /><i class="fa fa-edit text-blue"><a href="#">Editar</a></i><br /><i class="fa fa-archive text-blue"><a href="#">Respaldar</a></i><br /><i class="fa fa-share text-blue"><a href="#">Compartir</a></i><br /><i class="fa fa-reply text-blue"></i><a href="#">Replicar</a><br /><i class="fa fa-trash-o text-blue"></i><a href="#">Eliminar</a><br /></td>
-						                                </tr>
-						                                <tr>
-						                                	<td class="text-center"><a href="#">Matematicas I</a><br />Titular: Juan Jose Rodriguez Juárez<br />/Carpeta Uno</td>
-						                                	<td class="text-center">Del 07-Ene-2015<br />Al 30-Jun-2015<br /><i class="fa fa-ban text-red"></i>Inactivo</td>
-						                                	<td class="text-center">Distancia</td>
-						                                	<td class="text-center">Competencias</td>
-						                                	<td><i class="fa fa-group text-blue"><a href="#">Gestionar Usuarios</a></i><br /><i class="fa fa-edit text-blue"><a href="#">Editar</a></i><br /><i class="fa fa-archive text-blue"><a href="#">Respaldar</a></i><br /><i class="fa fa-share text-blue"><a href="#">Compartir</a></i><br /><i class="fa fa-reply text-blue"></i><a href="#">Replicar</a><br /><i class="fa fa-trash-o text-blue"></i><a href="#">Eliminar</a><br /></td>
-						                                </tr>
-						                                -->
 						                                
-						                        </tbody>
+						                                
+						                        	</tbody>
 					                        </table>	
 					                    </div>
 									</div>
