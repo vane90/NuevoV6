@@ -16,23 +16,21 @@
 		<section class="content">
 			
 			<div class="col-xs-12">
-				<div class="box">
-					<div class="header text-center">
-							<h3 class="box-title ">Administrador-Nuevo Curso:</h3>
-					</div>
+				<!--<div class="box">-->
 					
-					<div class="box-body">
+					
+					<!--<div class="box-body">-->
 						<div>
 							<form role="form" class="form-horizontal text-left">
 								<div class="form-group">
-									<label class="col-lg-4 control-label" for="nombre">Nombre del Curso:</label>
-									<div class="col-lg-6">
+									<label class="col-md-4 control-label" for="nombre">Nombre del Curso:</label>
+									<div class="col-md-4">
 										<input type="text" class="form-control input-sm" id="nombre">
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-lg-4 control-label" for="profesor">Maestro Titular:</label>
-									<div class="col-lg-6">
+									<label class="col-md-4 control-label" for="profesor">Maestro Titular:</label>
+									<div class="col-md-4">
 										<input type="text" class="form-control input-sm" id="profesor">
 									</div>
 								</div>
@@ -65,8 +63,8 @@
 								</div>
 								
 								<div class="form-group">
-									<label class="col-lg-4 control-label" for="fecha_i">Fecha inicio:</label>
-									<div class="col-md-2">
+									<label class="col-md-4 control-label" for="fecha_i">Fecha inicio:</label>
+									<div class="col-md-1">
 										<input type="date-time" class="form-control input-sm" id="fecha_i">
 
 									</div>
@@ -74,7 +72,7 @@
 										<span><i class="fa fa-calendar text-blue"></i></span>
 									</div>
 									
-									<label class="col-md-2 control-label" for="fecha_f">Fecha final:</label>
+									<label class="col-md-1 control-label" for="fecha_f">Fecha final:</label>
 									<div class="col-md-1">
 											<input type="date-time" class="form-control input-sm" id="fecha_f">
 									</div>
@@ -82,24 +80,28 @@
 										<span><i class="fa fa-calendar text-blue"></i></span>
 									</div>
 								</div>
+									
 								
 								<div class="btn-toolbar" role="toolbar">
 									
-									<div class="box-body nueva-padding">
-										
-										<button class="btn btn-primary btn-sm nueva-marginLeft">Guardar</button>
-										<button class="btn btn-primary btn-sm nueva-marginLeft"> Cancelar</button>
 									
-									</div>
-									
-								</div>
-									
-								
+										<div class="btn-group">
+											<button type="button" class="btn btn-primary">Guardar</button>
+										</div>
+										<div class="btn-group">
+											<button type="button" class="btn btn-primary"> Cancelar</button>
+										</div>
+								</div>		
 							</form>	
 						</div>
-					</div>
+					<!--</div>-->
 				</div>
 			</div>
 		</section>
+		<style>
+			.espacio{
+				padding-left: 390px;
+			}
+		</style>
 	</body>
 </html>
