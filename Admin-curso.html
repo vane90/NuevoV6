@@ -1,183 +1,121 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		
-			
-			
-			<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"></link>
-			<!--font Awesome-->
-			<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css"></link>
-			
-			
-			<link type="text/css" rel="stylesheet" href="css/AdminLTE.css"></link>
-			<link type="text/css" rel="stylesheet" href="css/nx/adminNexus.css"></link>
-	</head>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/AdminLTE.css">
+    <link type="text/css" rel="stylesheet" href="css/nx/adminNexus.css">
+</head>
+<body style="padding:30px">
 
-	<body style="padding:30px"> 
-		<div>
-			<section class="content">
-				
-				<div class="mailbox row">
-					<div class="col-xs-12">
-						<div class="box box-solid">
-							<div class="box-body">
-								<div class="row">
-								<div>
-									<div class="col-md-3 nueva-padding ">
-	                                    <div class="box">
-	                                   		<div class="box-body">
-		                                   		<div class="box-header">
-														<h4 class="box-title">Filtros</h4>
-									
-												</div>   
-												<table class="table nueva-table">
+    <div class="content">
+        <div class="row">
+            <div class="col-sm-2">
+                <form role="form">
+                    <div class="bs-sidebar hidden-print affix-top" role="complementary">
+                        <h4>Filtros</h4>
+                        <div class="form-group input-group">
+                            <select class="form-control">
+                                <option>Alumno</option>
+                                <option>Maestro</option>
+                            </select>
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><i class="fa fa-plus text-blue"></i></button>
+                            </span>
+                        </div>
+                        <div class="form-group input-group">
+                            <input type="text" class="form-control" placeholder="Busqueda">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><i class="fa fa-search text-blue"></i></button>
+                            </span>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option>Alumno</option>
+                                <option>Maestro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option>Activo</option>
+                                <option>Inactivo</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option>curso</option>
+                                <option>curso</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option>M.A Antonio Martinez</option>
+                                <option>M.C Daniel Alvarez</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block"> NUEVO CURSO &nbsp <i class="fa fa-plus"></i> </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
 
-													<!--<div class="dropdown col-md-12">
-														<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-														Carpeta Raiz
-															<span class="caret"></span>
-														</button>
-																	 
-														<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu3">
-															<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Carpeta 1</a></li>
-															<li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Carpeta 2</a></li>
-															<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Carpeta 3</a></li>
-															
-														</ul>
-													</div>-->
-                                                   
-                                                    <tr>
-                                                        <td>	  
-															<div class="nav col-md-14">
-																<div class="input-group col-lg-12">
-																    <input type="text" class="form-control" placeholder="Busqueda">
-																    	<span class="input-group-btn">
-																    	<button class="btn btn-default" type="button"> <a href="#"><i class="fa fa-search text-blue"></i></a></button>
-																    </span>
-																</div><!-- /input-group -->
-															</div><!-- /.col-lg-6 -->
-																
-                                                        </td>
-                                                    </tr>
 
-                                                    <tr>
-                                                        <td>
-                                                           <select class="form-control col-md-6 nueva-select" placeholder="Modalidad">
-                                                           		
-														        <option>Alumno</option>
-														        <option>Maestro</option>
-													        </select> 
-													    </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-	                                                        <select class="form-control col-md-6 nueva-select" placeholder="Estatus">
-															    <option>Activo</option>
-															    <option>Inactivo</option>
-														    </select>  
-														</td> 
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                           <select class="form-control col-md-6 nueva-select" placeholder="Tipo">
-														       <option>curso</option>
-														        <option>curso</option>
-													        </select>
-                                                         </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                           <select class="form-control col-md-6 nueva-select" placeholder="Profesor Titular">
-														       <option>M.A Antonio Martinez</option>
-														        <option>M.C Daniel Alvarez</option>
-													       </select>
-                                                        </td>
-                                                    </tr>
-                                                	<!--<tr>-->
-                                                		<td class="col-md-15">
-                                                			<!--<div class="col-md-15">-->
-													    		
-														 		<a href="nuevo_curso2.html" role="button" class="btn btn-primary btn-sm col-lg-12 nueva-marginLeft">Nuevo Curso<span><!--<i class="glyphicon glyphicon-plus pull-right"></i>--></span></a>
-														 		
-														</td> 
 
-												</table>
-	                                           	
-	                                    	</div>
-	                                  	</div>
-	                            </div>
-	                           </div><!-- /.col (LEFT) -->
-	                    <!-- Formulario Columna izquierda -->
-	                    <div>
-	                        <div class="col-md-9">
-								
-	                                <div class="box-body">
-	                                	
-										
-										<div class="box clear">
-											<table class="table fixed nueva-table ">
-												
-						                           <!--cambiar table-bordered por una clase mia-->
-						                            <thead > 	
-						                               	<tr class="nueva-azul">
-						                                	<th class="nueva-celda text-center">Nombre</th>
-						                                	<th class="nueva-celda text-center">Vigencia/Estatus</th>
-						                                	<th class="nueva-celda text-center">Modalidad</th>
-						                                	<th class="nueva-celda text-center">Tipo</th>
-						                                	<th class="nueva-celda text-center">Acciones</th>
-						                                </tr>
-						                            </thead>
-						                            <tbody>
-						                                <tr>
-						                                	<td><a href="#">Matematicas I</a><br /><i class="glyphicon glyphicon-user"></i>Titular: Juan Jose Rodriguez Juárez<br /><i class="fa fa-folder"></i>Tareas</td>
-						                                	<td><i class="fa fa-check text-green"></i>Del 07-Ene-2015 Al 30-Jun-2015</td>
-						                                	<td class="text-center">Distancia</td>
-						                                	<td class="text-center">Competencias</td>
-						                                	<td>
-						                                		<div class="dropdown">
-																	  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-																	    Acciones
-																	    <span class="caret"></span>
-																	  </button>
-																	 
-																	  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu3">
-																		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Gestionar Usuarios<i class=" icon-group "></i></a></li>
-																		  <li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Editar</a></li>
-																		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Respaldar</a></li>
-																		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Compartior</a></li>
-																		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Replicar</a></li>
-																		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Eliminar</a></li>
-																	  </ul>
-																</div>
-						                                	</td>
-						                                </tr>
-						                                
-						                                
-						                        	</tbody>
-					                        </table>	
-					                    </div>
-									</div>
-								</div>
-	                               
-							</div>
-						</div>
-					</div>
+            <div class="col-sm-9">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="nueva-celda text-center">Nombre</th>
+                            <th class="nueva-celda text-center">Vigencia/Estatus</th>
+                            <th class="nueva-celda text-center">Modalidad</th>
+                            <th class="nueva-celda text-center">Tipo</th>
+                            <th class="nueva-celda text-center">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="#">Matematicas I</a><br /><i class="glyphicon glyphicon-user"></i>Titular: Juan Jose Rodriguez Juárez<br /><i class="fa fa-folder"></i>Tareas</td>
+                            <td><i class="fa fa-check text-green"></i>Del 07-Ene-2015 Al 30-Jun-2015</td>
+                            <td class="text-center">Distancia</td>
+                            <td class="text-center">Competencias</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                                        Acciones
+                                        <span class="caret"></span>
+                                    </button>
 
-				</div>
-			</section>
-		</div>
-	<script src="js/jquery-1.11.1.min.js"></script>
-	<script src="js/jquery-ui-1.10.3.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/AdminLTE/app.js"></script>
-	<style>
-		.table>tbody>tr>td {
-          vertical-align: middle;
-          border-top: none;
-          }
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu3">
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Gestionar Usuarios<i class=" icon-group "></i></a></li>
+                                        <li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Editar</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Respaldar</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Compartior</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Replicar</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-	</style>
-	</body>
+        </div> <!-- close row div -->
+    </div> <!-- close contend div-->
+
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/AdminLTE/app.js"></script>
+    <style>
+        .table > tbody > tr > td {
+            vertical-align: middle;
+            border-top: none;
+        }
+    </style>
+</body>
 </html>
