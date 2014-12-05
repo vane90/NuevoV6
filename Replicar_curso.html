@@ -3,79 +3,103 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-			<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"></link>
+			<link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css"></link>
 			<!--font Awesome-->
-			<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css"></link>
+			<link type="text/css" rel="stylesheet" href="../css/font-awesome.min.css"></link>
 			
 			
-			<link type="text/css" rel="stylesheet" href="css/AdminLTE.css"></link>
-			<link type="text/css" rel="stylesheet" href="css/nx/adminNexus.css"></link>
+			<link type="text/css" rel="stylesheet" href="../css/AdminLTE.css"></link>
+			<link type="text/css" rel="stylesheet" href="../css/nx/adminNexus.css"></link>
+	
+		 <style>
+	        .input-group[class*="col-"]
+	        {
+	            padding-right: 15px;
+	            padding-left: 15px;
+	        }
+    	</style>
 	</head>
 
 	<body> 
-		< class="content">
+		<div class="content">
 			
-			<div class="col-md-12">
-				<div class="row">
+			<div class="row">
 
-					<div class="col-md-8 col-md-offset-4">
-						
-							<div class="box-body">
-								<form role="form" class="form-horizontal text-left">
-									<p>Seleccione las casillas de los elementos que desea replicar</p>
-										<div class="form-group col-md-7">
-											<div class="checkbox">
-										        <label><input type="checkbox" value="">Todos</label>
+				<div class="col-md-8 col-md-offset-4">
+					<div class="col-md-12">
+						<form role="form" class="form-horizontal">
+							<p>Seleccione las casillas de los elementos que desea replicar</p>
+										
+										<div class="form-group col-md-5">
+										
+											<div class="checkbox-vertical">
+										        <input type="checkbox" value="">Todos
 										    </div>
-										    <div class="checkbox">
-										        <label><input type="checkbox" value="">Programa analitico</label>
+										    <div class="checkbox-vertical">
+										        <input type="checkbox" value="">Programa analitico
 										    </div>
-										    <div class="checkbox disabled">
-										        <label><input type="checkbox" value="">Bienvenida</label>
+										    <div class="checkbox-vertical disabled">
+										        <input type="checkbox" value="">Bienvenida
 										    </div>
-										    <div class="checkbox disabled">
-										        <label><input type="checkbox" value="">Introduccion</label>
+										    <div class="checkbox-vertical disabled">
+										        <input type="checkbox" value="">Introduccion
 										    </div>
-										    <div class="checkbox disabled">
-										        <label><input type="checkbox" value="">Obetivos</label>
+										    <div class="checkbox-vertical disabled">
+										        <input type="checkbox" value="">Obetivos
 										    </div>
-										    <div class="checkbox disabled">
-										        <label><input type="checkbox" value="">Unidades</label>
+										    <div class="checkbox-vertical disabled">
+										        <input type="checkbox" value="">Unidades
 										    </div>
-										    <div class="checkbox disabled">
-										        <label><input type="checkbox" value="">Actividades</label>
+										    <div class="checkbox-vertical disabled">
+										        <input type="checkbox" value="">Bibliohemerografia
 										    </div>
-										    <div class="checkbox disabled">
-										        <label><input type="checkbox" value="">Conceptos</label>
+										    <div class="checkbox-vertical disabled">
+										        <input type="checkbox" value="">Mapa Conceptual
+										    </div>
+										    <div class="checkbox-vertical disabled">
+										        <input type="checkbox" value="">Compromisos
+										    </div>
+										    <div class="checkbox-vertical disabled">
+										        <input type="checkbox" value="">Conceptos
 										    </div>
 										<br /> <br />
 										<div class="form-group col-md-12">
+											<label>Nombre del curso origen</label>
+											<select class="form-control">
+												<option>Curso1</option>
+												<option></option>
+											</select>
+											<br />
 											<label>Nombre del curso destino</label>
 											<select class="form-control">
 												<option>Curso1</option>
 												<option></option>
 											</select>
 											<br />
-				      						<label>Fecha de Inicio</label>
-				      						<input type="password" class="form-control" id="inputPassword" placeholder="DD/MM/AAAA">
+							                <label>Fecha Inicio:</label>
+                                            <div class="form-group">
+							                    <div class="col-md-12 input-group">
+							                        <input type="text" class="form-control bfh-number" id="start-date" placeholder="dd/mm/aaaa">
+							                        <span class="input-group-btn">
+							                            <button class="btn btn-default" type="button">
+							                                <i class="fa fa-calendar text-blue"></i>
+							                            </button>
+							                        </span>
+							                    </div>
+							                </div>
 				    						
 				    						
 				    					</div>
-				    					<div class="btn-toolbar text-center" role="toolbar">
-											<a href="nuevo_curso2.html" role="button" class="btn btn-primary btn-sm col-md-11 nueva-marginLeft">Guardar<span><!--<i class="glyphicon glyphicon-plus pull-right"></i>--></span></a>
-											<br />
-											
-										</div>
-										<br />
-										
-											<div class="btn-group text-center">
-												<a href="#" class=""> Cancelar</a>
+				    					
+                                        <div class="text-center" role="toolbar">
+                                            <button type="button" class="btn btn-primary col-sm-11">
+                                                Guardar</button>
+                                            <div class="btn-group btn-group-justified col-md-10">
+												<a href="#" class="justifed"> Cancelar</a>
 											</div>
-										
-
+                                        </div>
 								</form>
-							</div>
-						
+					</div>	
 				</div>	
 				
 			</div>
